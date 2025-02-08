@@ -12,5 +12,5 @@ Seccion latest blogs ahora primero se reduce el tamaño en 1 del grid y desps ot
 En el testimonials se reduce antes el tamaño para que no se vea tan pequeño
 Eliminacion de media
 
-
-Tambien he añadido 
+Tambien he añadido animacion de entrada en el header,
+Y dos hover, uno en la imagen de la seccion about me y el otro en el menu del principio en Tony 
