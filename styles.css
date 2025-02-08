@@ -1,3 +1,5 @@
+/* Te he indicado los cambios realizados en el readme */
+
 :root {
     --primary-color: peru;
     --secondary-color: #7c4f22;
@@ -13,7 +15,7 @@
     --button-text-color: white;
     --progress-bar-color: peru;
     --link-hover-color: red;
-    --link-focus-outline: #ffcc00;
+    --link-focus-outline: #fc0;
     --underline-color: peru;
     --glow-start-color: #03a9f4;
     --glow-end-color: #f441a5;
@@ -72,6 +74,7 @@
     0% {
       text-shadow: 0 0 5px var(--glow-start-color), 0 0 10px var(--glow-start-color), 0 0 20px var(--glow-start-color);
     }
+
     100% {
       text-shadow: 0 0 10px var(--glow-end-color), 0 0 20px var(--glow-end-color), 0 0 30px var(--glow-end-color);
     }
@@ -107,7 +110,7 @@
     &:focus {
       outline: 2px solid var(--link-focus-outline);
       outline-offset: 4px;
-      background-color: rgba(255, 204, 0, 0.2);
+      background-color: rgb(255 204 0 / 20%);
       border-radius: var(--button-radius);
     }
   }
@@ -207,7 +210,7 @@
     &:focus {
       outline: 2px solid var(--link-focus-outline);
       outline-offset: 4px;
-      background-color: rgba(255, 204, 0, 0.2);
+      background-color: rgb(255 204 0 / 20%);
       border-radius: 4px;
     }
   }
@@ -973,7 +976,6 @@
 @media (width <=1300px) {
   .skills {
     .skills-content {
-
       .progress-bar-container {
         width: 500px;
       }
@@ -999,7 +1001,6 @@
 }
 
 @media (width <=1100px) {
-
   .skills {
     .skills-content {
       display: block;
@@ -1024,7 +1025,6 @@
 }
 
 @media (width <=1024px) {
-
   .menu {
     display: flex;
     padding-left: 0;
@@ -1104,7 +1104,6 @@
 }
 
 @media (width <=768px) {
-
   .header {
     flex-direction: column;
     align-items: center;
@@ -1156,7 +1155,6 @@
 }
 
 @media (width <=500px) {
-
   .header {
     a {
       width: 40%;
@@ -1174,7 +1172,6 @@
 
   .skills {
     .skills-content {
-
       .progress-bar-container {
         .progress-label {
           left: 70%;
